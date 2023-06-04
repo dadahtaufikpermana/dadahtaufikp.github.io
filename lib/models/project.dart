@@ -1,6 +1,9 @@
-import 'package:my_portfolio/models/link.dart';
-import 'package:my_portfolio/models/technology.dart';
-import 'package:my_portfolio/utils/constants.dart';
+
+
+import 'package:dadahtp_portofolio/models/technology.dart';
+
+import '../utils/constants.dart';
+import 'link.dart';
 
 class ProjectModel {
   final String project;

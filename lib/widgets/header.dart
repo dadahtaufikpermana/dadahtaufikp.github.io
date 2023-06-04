@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:my_portfolio/pages/home/components/header.dart';
-import 'package:my_portfolio/utils/screen_helper.dart';
+
+import '../pages/home/components/header.dart';
+import '../utils/screen_helper.dart';
 
 class CommonHeader extends StatelessWidget {
   const CommonHeader({Key? key}) : super(key: key);

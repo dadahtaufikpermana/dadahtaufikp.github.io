@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:my_portfolio/pages/demo/demo.dart';
-import 'package:my_portfolio/pages/home/home.dart';
-import 'package:my_portfolio/pages/works/works.dart';
-import 'package:my_portfolio/utils/constants.dart';
 import 'package:responsive_framework/responsive_framework.dart';
+
+import '../pages/demo/demo.dart';
+import '../pages/home/home.dart';
+import '../pages/works/works.dart';
+import '../utils/constants.dart';
 
 class Routes {
   static const String initial = "/";

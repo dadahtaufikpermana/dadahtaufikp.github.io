@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:my_portfolio/models/header_item.dart';
-import 'package:my_portfolio/utils/constants.dart';
-import 'package:my_portfolio/utils/utils.dart';
+
+import '../models/header_item.dart';
+import '../utils/constants.dart';
+import '../utils/utils.dart';
 
 final homeProvider = ChangeNotifierProvider((ref) => HomeProvider());
 

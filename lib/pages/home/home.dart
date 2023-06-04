@@ -2,21 +2,22 @@ import 'package:animated_theme_switcher/animated_theme_switcher.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_portfolio/models/project.dart';
-import 'package:my_portfolio/pages/home/components/about.dart';
-import 'package:my_portfolio/pages/home/components/carousel.dart';
-import 'package:my_portfolio/pages/home/components/footer.dart';
-import 'package:my_portfolio/pages/home/components/header.dart';
-import 'package:my_portfolio/pages/home/components/portfolio_stats.dart';
-import 'package:my_portfolio/pages/home/components/project.dart';
-import 'package:my_portfolio/pages/home/components/service.dart';
-import 'package:my_portfolio/provider/home.dart';
-import 'package:my_portfolio/provider/theme.dart';
-import 'package:my_portfolio/routes/routes.dart';
-import 'package:my_portfolio/utils/constants.dart';
-import 'package:my_portfolio/utils/globals.dart';
-import 'package:my_portfolio/utils/screen_helper.dart';
-import 'package:my_portfolio/widgets/switch.dart';
+
+import '../../models/project.dart';
+import '../../provider/home.dart';
+import '../../provider/theme.dart';
+import '../../routes/routes.dart';
+import '../../utils/constants.dart';
+import '../../utils/globals.dart';
+import '../../utils/screen_helper.dart';
+import '../../widgets/switch.dart';
+import 'components/about.dart';
+import 'components/carousel.dart';
+import 'components/footer.dart';
+import 'components/header.dart';
+import 'components/portfolio_stats.dart';
+import 'components/project.dart';
+import 'components/service.dart';
 
 class Home extends ConsumerStatefulWidget {
   const Home({Key? key}) : super(key: key);

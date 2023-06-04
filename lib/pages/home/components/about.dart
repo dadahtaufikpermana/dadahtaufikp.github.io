@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_portfolio/models/technology.dart';
-import 'package:my_portfolio/provider/theme.dart';
-import 'package:my_portfolio/utils/constants.dart';
-import 'package:my_portfolio/utils/screen_helper.dart';
 import 'package:responsive_framework/responsive_framework.dart';
+
+import '../../../models/technology.dart';
+import '../../../provider/theme.dart';
+import '../../../utils/constants.dart';
+import '../../../utils/screen_helper.dart';
 
 class AboutSection extends StatefulWidget {
   const AboutSection({Key? key}) : super(key: key);

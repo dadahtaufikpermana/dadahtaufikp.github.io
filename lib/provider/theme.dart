@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:my_portfolio/utils/constants.dart';
+
+import '../utils/constants.dart';
 
 final themeProvider = ChangeNotifierProvider(((ref) => CustomThemeProvider()));
 

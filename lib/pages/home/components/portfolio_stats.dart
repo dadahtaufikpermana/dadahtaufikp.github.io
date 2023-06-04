@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_portfolio/models/stat.dart';
-import 'package:my_portfolio/utils/constants.dart';
-import 'package:my_portfolio/utils/screen_helper.dart';
 import 'package:responsive_framework/responsive_framework.dart';
+
+import '../../../models/stat.dart';
+import '../../../utils/constants.dart';
+import '../../../utils/screen_helper.dart';
 
 final List<Stat> stats = [
   Stat(count: "5+", text: "Projects"),

@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_portfolio/models/project.dart';
-import 'package:my_portfolio/pages/home/components/footer.dart';
-import 'package:my_portfolio/pages/works/components/work_section.dart';
-import 'package:my_portfolio/provider/home.dart';
-import 'package:my_portfolio/utils/screen_helper.dart';
-import 'package:my_portfolio/widgets/header.dart';
+
+import '../../models/project.dart';
+import '../../provider/home.dart';
+import '../../utils/screen_helper.dart';
+import '../../widgets/header.dart';
+import '../home/components/footer.dart';
+import 'components/work_section.dart';
 
 class MyWorksScreen extends ConsumerStatefulWidget {
   const MyWorksScreen({Key? key}) : super(key: key);

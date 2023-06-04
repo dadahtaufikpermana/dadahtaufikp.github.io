@@ -3,11 +3,11 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_portfolio/provider/theme.dart';
-import 'package:my_portfolio/utils/constants.dart';
-import 'package:my_portfolio/utils/utils.dart';
 
 import '../../../models/carousel_item_model.dart';
+import '../../../provider/theme.dart';
+import '../../../utils/constants.dart';
+import '../../../utils/utils.dart';
 
 List<CarouselItemModel> carouselItems(double carouselContainerHeight) =>
     List.generate(
@@ -36,7 +36,7 @@ List<CarouselItemModel> carouselItems(double carouselContainerHeight) =>
                       height: 18.0,
                     ),
                     Text(
-                      "Agnel Selvan".toUpperCase(),
+                      "Dadah Taufik Permana".toUpperCase(),
                       style: GoogleFonts.josefinSans(
                         fontSize: 40.0,
                         fontWeight: FontWeight.w900,

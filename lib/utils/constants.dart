@@ -1,7 +1,8 @@
+import 'package:dadahtp_portofolio/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:my_portfolio/models/header_item.dart';
-import 'package:my_portfolio/utils/utils.dart';
+
+import '../models/header_item.dart';
 
 const Color kPrimaryColor = Color(0xFFFFD800);
 const Color kBackgroundColor = Color.fromRGBO(7, 17, 26, 1);

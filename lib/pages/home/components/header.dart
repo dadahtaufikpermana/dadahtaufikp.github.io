@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_portfolio/models/header_item.dart';
-import 'package:my_portfolio/provider/home.dart';
-import 'package:my_portfolio/provider/theme.dart';
-import 'package:my_portfolio/routes/routes.dart';
-import 'package:my_portfolio/utils/constants.dart';
-import 'package:my_portfolio/utils/globals.dart';
-import 'package:my_portfolio/utils/screen_helper.dart';
-import 'package:my_portfolio/utils/utils.dart';
 import 'package:responsive_framework/responsive_framework.dart';
+
+import '../../../models/header_item.dart';
+import '../../../provider/home.dart';
+import '../../../provider/theme.dart';
+import '../../../routes/routes.dart';
+import '../../../utils/constants.dart';
+import '../../../utils/globals.dart';
+import '../../../utils/screen_helper.dart';
+import '../../../utils/utils.dart';
 
 class HeaderLogo extends StatelessWidget {
   const HeaderLogo({Key? key}) : super(key: key);

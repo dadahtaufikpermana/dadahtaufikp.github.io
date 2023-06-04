@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_portfolio/models/name_color.dart';
-import 'package:my_portfolio/provider/theme.dart';
-import 'package:my_portfolio/utils/utils.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 import '../../../models/design_process.dart';
+import '../../../models/name_color.dart';
+import '../../../provider/theme.dart';
 import '../../../utils/constants.dart';
 import '../../../utils/screen_helper.dart';
+import '../../../utils/utils.dart';
 
 final List<DesignProcess> designProcesses = [
   DesignProcess(
