@@ -12,7 +12,7 @@ final List<FooterItem> footerItems = [
       iconData: Icons.location_on,
       title: "ADDRESS",
       text1: "Garut, Jawa Barat",
-      text2: "India",
+      text2: "Indonesia",
       onTap: () {
         Utilty.openMyLocation();
       }),
