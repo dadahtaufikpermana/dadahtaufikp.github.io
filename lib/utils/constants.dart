@@ -20,7 +20,6 @@ class AppConstants {
       "https://www.linkedin.com/in/dadah-taufik-permana-92a34420b/";
   static const instagramUrl = "https://www.instagram.com/dadahtp/";
   static const githubUrl = "https://github.com/dadahtaufikpermana";
-  static const mediumUrl = "https://medium.com/@agnelselvan";
 
   static const _assets = "assets/";
   static const _outputs = "outputs/";

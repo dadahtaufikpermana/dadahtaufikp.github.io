@@ -11,6 +11,6 @@ class Utilty {
 
   static Future<void> openMyLocation() =>
       openUrl("https://goo.gl/maps/YDFt3w2xWAu3nwD17");
-  static Future<void> openMyPhoneNo() => openUrl("tel:+91-9167877725");
-  static Future<void> openWhatsapp() => openUrl("https://wa.me/9167877725");
+  static Future<void> openMyPhoneNo() => openUrl("tel:+62-87871755934");
+  static Future<void> openWhatsapp() => openUrl("https://wa.me/87871755934");
 }
