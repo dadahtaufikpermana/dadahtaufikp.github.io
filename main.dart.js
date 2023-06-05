@@ -41653,13 +41653,13 @@ A.afZ.prototype={
 $0(){A.dZ("https://goo.gl/maps/YDFt3w2xWAu3nwD17")},
 $S:0}
 A.ag_.prototype={
-$0(){A.dZ("tel:+91-9167877725")},
+$0(){A.dZ("tel:+62-87871755934")},
 $S:0}
 A.ag0.prototype={
-$0(){A.dZ("mailto:agnelselvan007@gmail.com")},
+$0(){A.dZ("mailto:dadahtaufikp14@gmail.com")},
 $S:0}
 A.ag1.prototype={
-$0(){A.dZ("https://wa.me/9167877725")},
+$0(){A.dZ("https://wa.me/87871755934")},
 $S:0}
 A.w3.prototype={
 K(a){var s=null,r=A.ajz(1000,a),q=A.ajz(760,a)
@@ -42016,8 +42016,7 @@ if(r==="Contact")s.qJ()
 else if(r==="Home")s.qK()
 else if(r==="Services")s.qM()
 else if(r==="Works")s.qL()
-else if(r==="About")s.qI()
-else if(r==="Blog")A.dZ("https://medium.com/@agnelselvan")}}
+else if(r==="About")s.qI()}}
 A.agX.prototype={
 $1(a){return new A.jU(B.w5,$.bf())},
 $S:161}
@@ -42037,7 +42036,7 @@ $C:"$4",
 $R:4,
 $S:163}
 A.UE.prototype={
-$0(){A.dZ("mailto:agnelselvan007@gmail.com")},
+$0(){A.dZ("mailto:dadahtaufikp14@gmail.com")},
 $S:0}
 A.UF.prototype={
 $0(){A.dZ(u.G)},
