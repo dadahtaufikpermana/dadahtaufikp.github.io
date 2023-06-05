@@ -11,7 +11,7 @@ final List<FooterItem> footerItems = [
   FooterItem(
       iconData: Icons.location_on,
       title: "ADDRESS",
-      text1: "Mumbai, Maharashtra",
+      text1: "Garut, Jawa Barat",
       text2: "India",
       onTap: () {
         Utilty.openMyLocation();
@@ -19,7 +19,7 @@ final List<FooterItem> footerItems = [
   FooterItem(
       iconData: Icons.phone,
       title: "PHONE",
-      text1: "+91 9167877725",
+      text1: "+62 87871755934",
       text2: "",
       onTap: () {
         Utilty.openMyPhoneNo();
@@ -27,7 +27,7 @@ final List<FooterItem> footerItems = [
   FooterItem(
       iconData: Icons.mail,
       title: "EMAIL",
-      text1: "agnelselvan007@gmail.com",
+      text1: "dadahtaufikp14@gmail.com",
       text2: "",
       onTap: () {
         Utilty.openMail();
@@ -35,7 +35,7 @@ final List<FooterItem> footerItems = [
   FooterItem(
       iconData: Icons.sms,
       title: "WHATSAPP",
-      text1: "+91 9167877725",
+      text1: "+62 87871755934",
       text2: "",
       onTap: () {
         Utilty.openWhatsapp();

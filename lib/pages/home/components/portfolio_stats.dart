@@ -8,8 +8,7 @@ import '../../../utils/screen_helper.dart';
 
 final List<Stat> stats = [
   Stat(count: "5+", text: "Projects"),
-  Stat(count: "4", text: "Awards"),
-  Stat(count: "1", text: "Years\nExperience"),
+  Stat(count: "-1", text: "Years\nExperience"),
 ];
 
 class PortfolioStats extends StatelessWidget {

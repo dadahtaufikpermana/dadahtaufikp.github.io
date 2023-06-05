@@ -59,7 +59,7 @@ class _AboutSectionState extends State<AboutSection> {
                         height: 25.0,
                       ),
                       Text(
-                        "I'm Agnel Selvan, A Flutter and iOS Developer and Technical Blog Writer",
+                        "I'm Dadah Taufik Permana, A Mobile developer",
                         style: GoogleFonts.josefinSans(
                           fontWeight: FontWeight.bold,
                           height: 1.3,
@@ -70,7 +70,7 @@ class _AboutSectionState extends State<AboutSection> {
                         height: 10.0,
                       ),
                       const Text(
-                        "I have done my Computer Science graduation at Xavier's Institute of Engineering on 2021. I have been developing Mobile Apps for more than 1 years now. I have worked as a Team and as an Indivual in various organization and launched the apps in Playstore as well as in Appstore. In my free time I use to write Technical Blog in Medium. Always love to learn new technologies and to succeed in an environment of growth and excellence and earn a job which provides me job satisfaction and self-development and help me achieve personal as well as organisational goals.",
+                        "I am a graduate of Jenderal Soedirman University, majoring in Animal Husbandry. In 2022, my passion for technology led me to embarked on my career journey as an intern at Refactory. and in 2023, i continue to a new journey as a Flutter developer. I had the opportunity to participate in the Superbootcamp program at ISI, where I honed my skills and knowledge in mobile app development.During the Superbootcamp program, I gained hands-on experience in developing mobile applications using the Flutter framework. I worked on various projects that allowed me to apply my problem-solving skills and collaborate with other talented developers. This immersive program further ignited my enthusiasm for programming and strengthened my foundation in Flutter development.As a Flutter developer, I am driven by my relentless perseverance and attention to detail. I enjoy the process of crafting user-friendly interfaces and optimizing app performance to deliver exceptional user experiences. Additionally, my experience in the Superbootcamp program has instilled in me the value of teamwork, effective communication, and the ability to adapt to new technologies and industry practices.I am excited to continue my journey as a Flutter developer, embracing new challenges and constantly expanding my skill set. My goal is to contribute to innovative projects, collaborate with talented professionals, and make a positive impact in the ever-evolving world of mobile app development.",
                         style: TextStyle(
                           color: kCaptionColor,
                           height: 1.5,
@@ -159,8 +159,9 @@ class _AboutSectionState extends State<AboutSection> {
                     ScreenHelper.isTablet(context))
                   Expanded(
                     flex: constraints.maxWidth > 720.0 ? 1 : 0,
-                    child: SvgPicture.asset(
-                      AppConstants.personSvg,
+                    child: Image.asset(
+                      AppConstants.personPng,
+
                       width: constraints.maxWidth > 720.0 ? null : 350.0,
                     ),
                   ),

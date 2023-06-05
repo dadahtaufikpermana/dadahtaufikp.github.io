@@ -69,7 +69,7 @@ List<CarouselItemModel> carouselItems(double carouselContainerHeight) =>
                           width: 2,
                         ),
                         Text(
-                          "Mumbai",
+                          "Garut, Jawa Barat, Indonesia",
                           style: TextStyle(
                             color: kCaptionColor,
                             fontSize: 15.0,

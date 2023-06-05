@@ -17,9 +17,9 @@ double getMobileMaxWidth(BuildContext context) =>
 
 class AppConstants {
   static const linkedInUrl =
-      "https://www.linkedin.com/in/agnel-selvan-328421192/";
-  static const instagramUrl = "https://www.instagram.com/_agnel.selvan_/";
-  static const githubUrl = "https://github.com/AgnelSelvan";
+      "https://www.linkedin.com/in/dadah-taufik-permana-92a34420b/";
+  static const instagramUrl = "https://www.instagram.com/dadahtp/";
+  static const githubUrl = "https://github.com/dadahtaufikpermana";
   static const mediumUrl = "https://medium.com/@agnelselvan";
 
   static const _assets = "assets/";
@@ -28,15 +28,15 @@ class AppConstants {
   static const _svg = _assets + "svg/";
   static const guySvg = _svg + "guy.svg";
   static const personSvg = _svg + "person.svg";
+  static const personPng = "assets/images/person.png";
 
   static const _images = _assets + "images/";
 
   static const _socialImages = _images + "social/";
-  // static const emailImage = _socialImages + "email.png";
-  // static const linkedInImage = _socialImages + "linkedin-logo.png";
-  // static const instaImage = _socialImages + "instagram.png";
-  // static const githubImage = _socialImages + "github.png";
-  // static const mediumImage = _socialImages + "medium.png";
+  static const emailImage = _socialImages + "email.png";
+  static const linkedInImage = _socialImages + "linkedin-logo.png";
+  static const instaImage = _socialImages + "instagram.png";
+  static const githubImage = _socialImages + "github.png";
 
   static const _techImages = _images + "technology/";
   static const flutterImage = _techImages + "flutter.png";
@@ -49,14 +49,14 @@ class AppConstants {
   static const swiftImage = _techImages + "swift.png";
   static const sceneKitImage = _techImages + "scenekit.jpeg";
   static const javascriptImage = _techImages + "javascript.png";
+  static const kotlinImage = _techImages + "kotlin.png";
 
   static const _projectsImages = _images + "projects/";
-  static const smartStoreImage = _projectsImages + "1.jpeg";
-  static const crossTheRoadImage = _projectsImages + "2.jpeg";
-  static const newsUpImage = _projectsImages + "3.jpeg";
-  static const musicLabImage = _projectsImages + "4.jpeg";
-  static const personalFaceImage = _projectsImages + "5.jpeg";
-  static const computerStoreImage = _projectsImages + "6.jpeg";
+  static const bookTicketImage = _projectsImages + "01.jpeg";
+  static const quizStudyImage = _projectsImages + "02.jpeg";
+  static const newsAppImage = _projectsImages + "03.jpeg";
+  static const skinventoryImage = _projectsImages + "04.jpeg";
+  static const foodMarketImage = _projectsImages + "05.jpeg";
 
   static const _gifs = _outputs + "gif/";
   static const portfolioGif = _gifs + "mobile.gif";
@@ -85,12 +85,6 @@ class AppConstants {
         iconData: FontAwesomeIcons.github,
         onTap: () {
           Utilty.openUrl(githubUrl);
-        }),
-    NameOnTap(
-        title: "Medium",
-        iconData: FontAwesomeIcons.medium,
-        onTap: () {
-          Utilty.openUrl(mediumUrl);
         }),
   ];
 }

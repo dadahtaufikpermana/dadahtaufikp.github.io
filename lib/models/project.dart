@@ -28,100 +28,63 @@ class ProjectModel {
 
   static List<ProjectModel> projects = [
     ProjectModel(
-      project: "Flutter Package",
-      title: "UPI QRCode Generator",
+      project: "Flutter App",
+      title: "Book Ticket Application UI",
       description:
-          "This Plugin mainly focus on the generation of UPI Payment QRCode, so that the user can scan the QRCode for paying the specific amount of money using UPI.",
-      appPhotos: AppConstants.flutterImage,
-      projectLink: "https://pub.dev/packages/upi_payment_qrcode_generator",
+          "The BookTicket Application is designed to facilitate users in booking tickets online. It features an attractive user interface (UI) that makes it easy for users to view schedules and book tickets with ease.",
+      appPhotos: AppConstants.bookTicketImage,
+      projectLink: "https://github.com/dadahtaufikpermana/bookticketapplication.git",
       techUsed: [
         TechnologyConstants.flutter,
       ],
-      buttonText: "Pub Dev",
-    ),
-    ProjectModel(
-      project: "Flutter Package",
-      title: "WIFI IP Details",
-      description:
-          "This package allows Flutter apps to get Wifi IP Details like Internet Service Provider(ISP), Country, Public IP Address, etc.",
-      appPhotos: AppConstants.flutterImage,
-      projectLink: "https://pub.dev/packages/wifi_ip_details",
-      techUsed: [
-        TechnologyConstants.flutter,
-      ],
-      buttonText: "Pub Dev",
+      buttonText: "Github Link",
     ),
     ProjectModel(
       project: "Flutter App",
-      title: "Smart Store App",
+      title: "Quiz Study App",
       description:
-          "The Idea came during the pandemics to solve the issue of social distancing in supermarkets.",
-      appPhotos: AppConstants.smartStoreImage,
-      projectLink: "https://github.com/AgnelSelvan/Smart-Store-Mobile-App",
+          "The Quiz Study application is designed to enhance users' knowledge and skills in the fields of physics, chemistry, mathematics, and basic biology. This application is developed using Flutter technology for the user interface and Firebase for backend services.",
+      appPhotos: AppConstants.quizStudyImage,
+      projectLink: "git@github.com:dadahtaufikpermana/quiz_study_firebase.git",
       techUsed: [
         TechnologyConstants.flutter,
         TechnologyConstants.firebase,
-        TechnologyConstants.flask,
-        TechnologyConstants.python,
-        TechnologyConstants.razorPay
-      ],
-      buttonText: "Github Link",
-    ),
-    ProjectModel(
-      project: "Swift App",
-      title: "Cross The Road Game",
-      description: "Cross the Road game developed using Swift and SceneKit",
-      appPhotos: AppConstants.crossTheRoadImage,
-      projectLink: "https://github.com/AgnelSelvan/Cross-the-road",
-      techUsed: [
-        TechnologyConstants.swift,
-        TechnologyConstants.sceneKit,
       ],
       buttonText: "Github Link",
     ),
     ProjectModel(
       project: "Flutter App",
-      title: "News Up App",
+      title: "News App Flutter",
       description:
-          "This application is used basically for viewing different news. Launched the app in Amazon AppStore",
-      appPhotos: AppConstants.newsUpImage,
+          "The News App Flutter is a mobile application that allows users to access news articles from various categories. It is developed using Flutter framework and utilizes the NewsAPI as the source of news data. This application was created as a challenge during my participation in the Superbootcamp at ISI (ihsan solusi technology)",
+      appPhotos: AppConstants.newsAppImage,
+      projectLink: "https://github.com/AgnelSelvan/Smart-Store-Mobile-App",
+      techUsed: [
+        TechnologyConstants.flutter,
+      ],
+      buttonText: "Github Link",
+    ),
+    ProjectModel(
+      project: "Flutter App",
+      title: "Skinventory",
+      description: "The Skinventory app is designed to assist users in documenting their beauty products and keeping track of their expiration dates. It was developed by a team of four individuals during the Superbootcamp at ISI. The application is built using Flutter, Firebase, and local storage. the repostory is private",
+      appPhotos: AppConstants.skinventoryImage,
+      projectLink: "",
+      techUsed: [
+        TechnologyConstants.flutter,
+        TechnologyConstants.firebase,
+      ],
+    ),
+    ProjectModel(
+      project: "Flutter App",
+      title: "FoodMarket App",
+      description:
+          "FoodMarket aims to provide a seamless platform for users to explore and order food from various restaurants and food vendors. The application brings together a wide range of culinary options and simplifies the food ordering process. FoodMarket is a collaborative mobile application developed as a dummy project during training at ISI (Ihsan Solusi Technology). The app is a combination of my expertise as a Flutter developer and the backend development skills of a Python team.",
+      appPhotos: AppConstants.foodMarketImage,
       projectLink: "https://www.amazon.com/gp/product/B08669JDX7",
       techUsed: [
         TechnologyConstants.flutter,
-      ],
-    ),
-    ProjectModel(
-      project: "Flutter App",
-      title: "Music Lab",
-      description:
-          "A Simple Music Player App. Launched the app in Amazon AppStore",
-      appPhotos: AppConstants.musicLabImage,
-      projectLink: "https://www.amazon.com/gp/product/B08WL2XFGW",
-      techUsed: [
-        TechnologyConstants.flutter,
-      ],
-    ),
-    ProjectModel(
-      project: "PHP Website",
-      title: "Computer Store",
-      description:
-          "This is a complete online e-commerce website of selling computer and seperate admin panel is built for handling the order request and only payement is added.",
-      appPhotos: AppConstants.computerStoreImage,
-      projectLink: "https://github.com/AgnelSelvan/computer-store.git",
-      techUsed: [
-        TechnologyConstants.php,
-        TechnologyConstants.razorPay,
-      ],
-    ),
-    ProjectModel(
-      project: "Python",
-      title: "Personal Face and Emotion Recognition",
-      description:
-          "The model will recognize each face and identify their name based on the trained model. CNN is used for training the dataset.",
-      appPhotos: AppConstants.personalFaceImage,
-      projectLink: "https://github.com/AgnelSelvan/Emotion-Recognition.git",
-      techUsed: [
-        TechnologyConstants.python,
+        TechnologyConstants.firebase,
       ],
     ),
   ];
@@ -132,7 +95,7 @@ class ProjectModel {
       title: "Flutter Web Portfolio",
       description: "",
       appPhotos: AppConstants.portfolioGif,
-      projectLink: "https://github.com/AgnelSelvan/Flutter-Web-Portfolio",
+      projectLink: "https://github.com/dadahtaufikpermana/dadahtaufikp.github.io",
       techUsed: [],
       buttonText: "Github Link",
     ),
