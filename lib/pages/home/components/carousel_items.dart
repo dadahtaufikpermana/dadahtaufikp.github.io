@@ -92,19 +92,6 @@ List<CarouselItemModel> carouselItems(double carouselContainerHeight) =>
                         padding: const EdgeInsets.symmetric(
                           horizontal: 28.0,
                         ),
-                        child: TextButton(
-                          onPressed: () {
-                            Utilty.openUrl(AppConstants.linkedInUrl);
-                          },
-                          child: Text(
-                            "Let's Talk",
-                            style: TextStyle(
-                              color: Colors.grey[800],
-                              fontSize: 13.0,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ),
                       ),
                     ),
                   ],
