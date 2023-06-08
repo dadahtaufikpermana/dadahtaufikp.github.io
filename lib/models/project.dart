@@ -81,7 +81,7 @@ class ProjectModel {
       description:
           "FoodMarket aims to provide a seamless platform for users to explore and order food from various restaurants and food vendors. The application brings together a wide range of culinary options and simplifies the food ordering process. FoodMarket is a collaborative mobile application developed as a dummy project during training at ISI (Ihsan Solusi Technology). The app is a combination of my expertise as a Flutter developer and the backend development skills of a Python team.",
       appPhotos: AppConstants.foodMarketImage,
-      projectLink: "https://www.amazon.com/gp/product/B08669JDX7",
+      projectLink: "https://github.com/Ortechstra/FoodMarket.git",
       techUsed: [
         TechnologyConstants.flutter,
         TechnologyConstants.firebase,
