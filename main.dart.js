@@ -77289,7 +77289,7 @@ r($,"aH6","arO",()=>A.a([A.xW("outputs/gif/mobile.gif","Github Link","","Flutter
 r($,"aHF","ub",()=>A.aj_("Flutter","assets/images/technology/flutter.png"))
 r($,"aHE","aha",()=>A.aj_("Firebase","assets/images/technology/firebase.png"))
 r($,"aHG","as4",()=>A.aj_("Kotlin","assets/images/technology/kotlin.png"))
-r($,"aHH","as5",()=>A.a([$.ub(),$.as4()],A.a3("r<jg>")))``
+r($,"aHH","as5",()=>A.a([$.ub(),$.as4()],A.a3("r<jg>")))
 s($,"aKq","atP",()=>{var q="+62 87871755934"
 return A.a([A.YS(B.kC,new A.afZ(),"Garut, Jawa Barat","Indonesia","ADDRESS"),A.YS(B.Dh,new A.ag_(),q,"","PHONE"),A.YS(B.De,new A.ag0(),"dadahtaufikp14@gmail.com","","EMAIL"),A.YS(B.Dk,new A.ag1(),q,"","WHATSAPP")],A.a3("r<q8>"))})
 s($,"aKF","atU",()=>A.a([A.anZ("5+","Projects"),A.anZ("-1","Years\nExperience")],A.a3("r<rz>")))
