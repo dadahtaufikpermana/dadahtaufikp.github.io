@@ -45,7 +45,7 @@ class ProjectModel {
       description:
           "The Quiz Study application is designed to enhance users' knowledge and skills in the fields of physics, chemistry, mathematics, and basic biology. This application is developed using Flutter technology for the user interface and Firebase for backend services.",
       appPhotos: AppConstants.quizStudyImage,
-      projectLink: "git@github.com:dadahtaufikpermana/quiz_study_firebase.git",
+      projectLink: "https://github.com/dadahtaufikpermana/quiz_study_firebase.git",
       techUsed: [
         TechnologyConstants.flutter,
         TechnologyConstants.firebase,
@@ -69,7 +69,7 @@ class ProjectModel {
       title: "Skinventory",
       description: "The Skinventory app is designed to assist users in documenting their beauty products and keeping track of their expiration dates. It was developed by a team of four individuals during the Superbootcamp at ISI. The application is built using Flutter, Firebase, and local storage. the repostory is private",
       appPhotos: AppConstants.skinventoryImage,
-      projectLink: "",
+      projectLink: "https://github.com/Ortechstra/Skinventory.git",
       techUsed: [
         TechnologyConstants.flutter,
         TechnologyConstants.firebase,
