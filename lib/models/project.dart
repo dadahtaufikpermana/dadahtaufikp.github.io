@@ -58,7 +58,7 @@ class ProjectModel {
       description:
           "The News App Flutter is a mobile application that allows users to access news articles from various categories. It is developed using Flutter framework and utilizes the NewsAPI as the source of news data. This application was created as a challenge during my participation in the Superbootcamp at ISI (ihsan solusi technology)",
       appPhotos: AppConstants.newsAppImage,
-      projectLink: "https://github.com/AgnelSelvan/Smart-Store-Mobile-App",
+      projectLink: "https://github.com/dadahtaufikpermana/news_app_flutter.git",
       techUsed: [
         TechnologyConstants.flutter,
       ],

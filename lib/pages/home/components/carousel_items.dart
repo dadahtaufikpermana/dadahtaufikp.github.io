@@ -81,32 +81,6 @@ List<CarouselItemModel> carouselItems(double carouselContainerHeight) =>
                     const SizedBox(
                       height: 25.0,
                     ),
-                    MouseRegion(
-                      cursor: SystemMouseCursors.click,
-                      child: Container(
-                        decoration: BoxDecoration(
-                          color: kPrimaryColor,
-                          borderRadius: BorderRadius.circular(8.0),
-                        ),
-                        height: 48.0,
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 28.0,
-                        ),
-                        child: TextButton(
-                          onPressed: () {
-                            Utilty.openUrl(AppConstants.linkedInUrl);
-                          },
-                          child: Text(
-                            "Let's Talk",
-                            style: TextStyle(
-                              color: Colors.grey[800],
-                              fontSize: 13.0,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
                   ],
                 ),
               ),
